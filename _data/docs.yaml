@@ -1,0 +1,100 @@
+boulder-opal:
+  title: BOULDER OPAL
+  description: Professional Python tools for quantum R&D teams
+  permalink: /boulder-opal
+  user-guides:
+    title: User guides
+    description: Learn how to use individual features in BOULDER OPAL with worked examples
+    permalink: /boulder-opal/user-guides
+    items:
+      - title: Getting started
+        description: Getting started with Q-CTRL BOULDER OPAL
+        filename: qctrl/getting-started.ipynb
+        permalink: /boulder-opal/user-guides/getting-started
+      - title: Setup
+        description: Setting up a quantum system
+        filename: qctrl/setup.ipynb
+        permalink: /boulder-opal/user-guides/setup
+      - title: Filter functions
+        description: Calculation of noise filtering properties in driven controls
+        filename: qctrl/filter-functions.ipynb
+        permalink: /boulder-opal/user-guides/filter-functions
+      - title: Simulation
+        description: Simulating the dynamics of quantum systems in the presence of noise
+        filename: qctrl/simulation.ipynb
+        permalink: /boulder-opal/user-guides/simulation
+      - title: Optimization
+        description: Robust and optimal optimizations of pulses that control a quantum system
+        filename: qctrl/optimization.ipynb
+        permalink: /boulder-opal/user-guides/optimization
+      - title: Quasi-static scans
+        description: Characterizing the robustness of a pulse to quasi-static noise
+        filename: qctrl/quasi-static-scans.ipynb
+        permalink: /boulder-opal/user-guides/quasi-static-scans
+      - title: Noise characterization and reconstruction
+        description: Reconstructing noise spectra using shaped control pulses
+        filename: qctrl/noise-characterization-and-reconstruction.ipynb
+        permalink: /boulder-opal/user-guides/noise-characterization-and-reconstruction
+      - title: Performance metrics
+        description: Quantifying the performance of quantum controls
+        filename: qctrl/performance-metrics.ipynb
+        permalink: /boulder-opal/user-guides/performance-metrics
+  application-notes:
+    title: Application notes
+    description: Apply BOULDER OPAL to solve critical problems facing quantum technologies
+    permalink: /boulder-opal/application-notes
+    items:
+      - title: "Superconducting qubits: improving the performance of single qubit gates"
+        description: Increasing robustness against dephasing and control noise using Q-CTRL pulses
+        filename: qctrl/superconducting-qubits-improving-the-performance-of-single-qubit-gates.ipynb
+        permalink: /boulder-opal/application-notes/superconducting-qubits-improving-the-performance-of-single-qubit-gates
+      - title: "Superconducting qubits: improving the performance of the cross resonance gate"
+        description: Increasing robustness against crosstalk
+        filename: qctrl/superconducting-qubits-improving-the-performance-of-the-cross-resonance-gate.ipynb
+        permalink: /boulder-opal/application-notes/superconducting-qubits-improving-the-performance-of-the-cross-resonance-gate
+      - title: "Cold ions: improving the performance of single-qubit gates"
+        description: Increasing robustness against dephasing and control noise using Q-CTRL pulses
+        filename: qctrl/cold-ions-improving-the-performance-of-single-qubit-gates.ipynb
+        permalink: /boulder-opal/application-notes/cold-ions-improving-the-performance-of-single-qubit-gates
+      - title: "Cold ions: obtaining robust, configurable multi-qubit gates"
+        description: Obtaining control solutions for parallel and specifiable multi-qubit gates using Q-CTRL pulses
+        filename: qctrl/cold-ions-obtaining-robust-configurable-multi-qubit-gates.ipynb
+        permalink: /boulder-opal/application-notes/cold-ions-obtaining-robust-configurable-multi-qubit-gates
+      - title: "Control hardware: pulse optimization under realistic experimental constraints"
+        description: Highly flexible optimizer for hardware-limited signal generation and non-ideal control lines
+        filename: qctrl/control-hardware-pulse-optimization-under-realistic-experimental-constraints.ipynb
+        permalink: /boulder-opal/application-notes/control-hardware-pulse-optimization-under-realistic-experimental-constraints
+      - title: "Silicon qubit: Robust ESR control of semiconducting spin qubits"
+        description: Dephasing-robust single-qubit Hadamard with slew rate limit
+        filename: qctrl/silicon-qubit-robust-esr-control-of-semiconducting-spin-qubits.ipynb
+        permalink: /boulder-opal/application-notes/silicon-qubit-robust-esr-control-of-semiconducting-spin-qubits
+      - title: "QuTiP: Independent verification of Q-CTRL optimization solutions"
+        description: Using QuTiP to simulate controls optimized with the Q-CTRL Python Package
+        filename: qctrl/qutip-independent-verification-of-q-ctrl-optimization-solutions.ipynb
+        permalink: /boulder-opal/application-notes/qutip-independent-verification-of-q-ctrl-optimization-solutions
+references:
+  title: References
+  description: Module, class and method reference for Q-CTRL software packages
+  permalink: /references
+  python:
+    title: Python
+    description: Module, class and method reference for Q-CTRL Python software packages
+    permalink: /references/python
+    items:
+      - title: Q-CTRL Python package
+        description: Module, class and method reference for the Q-CTRL Python package
+        permalink: /references/python/qctrl
+        target: _blank
+      - title: Q-CTRL Visualizer Python package
+        description: Module, class and method reference for the Q-CTRL Visualizer Python package
+        permalink: /references/python/qctrl-visualizer
+        target: _blank
+      - title: Q-CTRL Open Controls Python package
+        description: Module, class and method reference for the Q-CTRL Open Controls Python package
+        permalink: /references/python/qctrl-open-controls
+        target: _blank
+wiki:
+  title: Wiki
+  description: Comprehensive knowledge base of quantum control theory
+  permalink: /wiki
+  target: _blank
