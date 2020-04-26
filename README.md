@@ -1,3 +1,3 @@
-# Electron Avenue
+# Eleventy on GitHub Pages
 
-An attempt to get 11ty running on GitHub Pages with the least amount of fuss.
+An attempt to get [Eleventy](https://www.11ty.dev/) running on [GitHub Pages](https://pages.github.com/) with the same amount of effort as it takes to get [Jekyll](https://jekyllrb.com/) to do the same (i.e. none).
