@@ -1,8 +1,9 @@
 name: Eleventy
 on:
   push:
-    branches:
-      - master
+    branches: [ master ]
+  pull_request:
+    branches: [ master ]
 jobs:
   deploy:
     runs-on: ubuntu-latest
