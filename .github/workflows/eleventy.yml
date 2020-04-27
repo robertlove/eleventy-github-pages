@@ -3,8 +3,11 @@ on:
   push:
     branches:
       - master
+  pull_request:
+    branches:
+      - master
 jobs:
-  eleventy:
+  deploy:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
