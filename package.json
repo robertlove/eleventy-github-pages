@@ -8,15 +8,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/robertlove/electron-avenue.git"
+    "url": "git+https://github.com/robertlove/eleventy-github-pages.git"
   },
   "keywords": [],
   "author": "",
   "license": "Apache-2.0",
   "bugs": {
-    "url": "https://github.com/robertlove/electron-avenue/issues"
+    "url": "https://github.com/robertlove/eleventy-github-pages/issues"
   },
-  "homepage": "https://github.com/robertlove/electron-avenue#readme",
+  "homepage": "https://github.com/robertlove/eleventy-github-pages#readme",
   "devDependencies": {
     "@11ty/eleventy": "^0.10.0"
   }
