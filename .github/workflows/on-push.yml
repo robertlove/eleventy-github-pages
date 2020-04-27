@@ -1,4 +1,19 @@
-# # https://github.com/marketplace/actions/deploy-to-github-pages
+name: Build and Deploy
+on:
+  push:
+    branches:
+      - master
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - run: npm ci
+      - run: npm run build
+
+
+
+
 # name: Build and Deploy
 # on:
 #   push:
@@ -23,21 +38,21 @@
 #           BRANCH: master
 #           FOLDER: _site
 
-name: Eleventy Build and Deploy
-on:
-  push:
-    branches:
-      - master
-jobs:
-  build-and-deploy:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@master
-      - name: Build
-        uses: TartanLlama/actions-eleventy@v1.1
-      - name: Deploy
-        uses: peaceiris/actions-gh-pages@v1.1.0
-        env:
-          PUBLISH_DIR: _site
-          PUBLISH_BRANCH: master
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+# name: Eleventy Build and Deploy
+# on:
+#   push:
+#     branches:
+#       - master
+# jobs:
+#   build-and-deploy:
+#     runs-on: ubuntu-latest
+#     steps:
+#       - uses: actions/checkout@master
+#       - name: Build
+#         uses: TartanLlama/actions-eleventy@v1.1
+#       - name: Deploy
+#         uses: peaceiris/actions-gh-pages@v1.1.0
+#         env:
+#           PUBLISH_DIR: _site
+#           PUBLISH_BRANCH: master
+#           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
