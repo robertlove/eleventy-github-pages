@@ -2,20 +2,32 @@
 
 An attempt to get [Eleventy](https://www.11ty.dev/) running on [GitHub Pages](https://pages.github.com/) with the same amount of effort as it takes to get [Jekyll](https://jekyllrb.com/) to do the same (i.e. none).
 
-## Current approach
+## Table of contents
 
-Build the site locally to the `docs` folder (as opposed to the default `_sites` folder) with the following:
+- [Installation](#installation)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [Credits](#credits)
+- [License](#license)
 
-```
-npx @11ty/eleventy --input=. --output=docs
-```
+## Installation
 
-This is because GitHub Pages gives you the option to serve the site from either the `master` branch or the `master` branch `/docs` folder.
+1. `$ git clone https://github.com/robertlove/eleventy-github-pages.git`
+1. `$ cd eleventy-github-pages`
+1. `$ npm install`
 
-Put a `.nojekyll` file in the repo to stop GitHub Pages using Jekyll by default.
+## Usage
 
-Set up GitHub Pages to serve the site from the `/docs` folder.
+1. `$ npm run serve`
 
-## Future approach
+## Contributing
 
-Stop doing all that crap above and use GitHub Actions to do it properly somehow.
+See [Contributing](https://github.com/robertlove/.github/blob/master/CONTRIBUTING.md).
+
+## Credits
+
+See [Contributors](https://github.com/robertlove/eleventy-github-pages/graphs/contributors).
+
+## License
+
+See [LICENSE](LICENSE).
